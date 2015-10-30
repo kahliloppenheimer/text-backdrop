@@ -9,6 +9,7 @@ backdrop('Donald Trump is running for president in 2016').then(console.log)
 ## Results
 ```bash
 {
+    original_text: 'Donald Trump is running for president in 2016'
     named_entities: {'Donald Trump': {confidence: ...}}
     textTags: {'right_politics': .1244, 'energy': .0954, 'left_politics': .1674}
     keywords: {'2016': .2015, donald: .2385, trump: .2337}
