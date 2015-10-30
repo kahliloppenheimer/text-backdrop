@@ -11,7 +11,7 @@ var NUM_NEWS_ARTICLES = 5;
 var NUM_TEXT_TAGS = 3;
 
 function backdrop (text) {
-    backdrop = {};
+    backdrop = {'original text': text};
     // Get keywords from text, then hit Bing News API
     var newsPromise = indico.keywords(text).then(function(keywords) {
         backdrop['keywords'] = keywords;
