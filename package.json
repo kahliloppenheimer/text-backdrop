@@ -1,6 +1,6 @@
 {
   "name": "text-backdrop",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "Module to analyze meaning from text and send back relevant information about the text",
   "main": "backdrop.js",
   "scripts": {
@@ -8,6 +8,7 @@
   },
   "author": "Kahlil Oppenheimer",
   "license": "ISC",
+  "tonicExample": "var backdrop = require('text-backdrop');\nawait backdrop('Donald Trump is running for president in 2016')",
   "dependencies": {
     "indico.io": "*",
     "q": "*",
